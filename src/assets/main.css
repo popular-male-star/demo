@@ -29,7 +29,24 @@ a,
 
   #app {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 0 2rem;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background-color: #d8d8d8;
+  background-clip: content-box;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 3px;
+  box-shadow: inset 0 0 2px;
+  background: #ffffff;
 }
